@@ -1,6 +1,8 @@
 package me.kkanojia.hipbot.service
 
-object Commands {
+import me.kkanojia.hipbot.models.Command
+
+object CommandHelper {
   val defaultMessage = "I am sorry I dont understand what you are saying. Have you heard of google? Please try using it. (badpokerface)"
 
   val botCommands = Map(
@@ -10,3 +12,4 @@ object Commands {
   )
 
 }
+

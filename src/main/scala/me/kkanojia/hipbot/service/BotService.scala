@@ -17,7 +17,9 @@ class BotService {
 
     val userName = message.from.name
     val command = message.message.replace("/bot", "")
-    val response = Commands.botCommands.getOrElse(command.trim.toLowerCase, Commands.defaultMessage)
+    val languageService = new LanguageService
+    val importantWords = languageService.getTagsFromMessage(command)
+    val response = "These are the important words from the sentence - " + importantWords.mkString("[", ",", "]")
 
     RoomNotification(
       color = "green",
