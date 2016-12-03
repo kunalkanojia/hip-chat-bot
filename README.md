@@ -1,10 +1,7 @@
 
 Hipchat bot using akka http.
 
-Does nothing as of now. :|
-
-Deployed on pivotal cloudfoundry.
-
+Returns a list of meaningful words fom the message text as of now.
 
 Can be tested in this public group.
 https://test-bots-team.hipchat.com/chat
