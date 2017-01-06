@@ -1,3 +1,5 @@
+package me.kkanojia.hipbot
+
 import akka.actor.ActorSystem
 import akka.event.Logging
 import akka.http.scaladsl.Http

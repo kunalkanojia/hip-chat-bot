@@ -24,6 +24,8 @@ libraryDependencies ++= {
     "org.json4s" %% "json4s-ext" % Json4sVersion,
     "de.heikoseeberger" %% "akka-http-json4s" % "1.10.1",
 
+    "io.spray" %% "spray-client" % "1.3.1",
+
     //NLP
     "edu.stanford.nlp" % "stanford-corenlp" % "3.6.0",
     "edu.stanford.nlp" % "stanford-corenlp" % "3.6.0" classifier "models",
